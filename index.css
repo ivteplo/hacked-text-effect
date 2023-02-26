@@ -1,0 +1,39 @@
+/* Copyright (c) 2023 Ivan Teplov */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  font-family: system-ui, sans-serif;
+  background: #000;
+  color: white;
+}
+
+p {
+  color: #fefefe;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+@media (min-width: 37rem) {
+  p {
+    font-size: 1.5rem;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+}
